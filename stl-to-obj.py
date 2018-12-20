@@ -156,8 +156,8 @@ def main():
     import transformations as t_
         #from sys import argv
 
-    inputpath = "/home/misumi/Desktop/PCLDevelopment_ConversionTool/Data/MisumiData/STL"
-    outputpath = "/home/misumi/Desktop/PCLDevelopment_ConversionTool/Data/MisumiData/OBJ"
+    inputpath = "" #path to STL file
+    outputpath = "" #path to OBJ file
     listofinputfiles = getListOfFiles(inputpath)
     
     for f in listofinputfiles:
